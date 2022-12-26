@@ -9,4 +9,5 @@ const router = Router();
 router.use('/categories', categoriesRoutes);
 router.use('/specifications', specificationsRoutes);
 
+// eslint-disable-next-line import/prefer-default-export
 export { router };
